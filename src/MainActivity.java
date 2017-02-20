@@ -1,5 +1,4 @@
-package com.coderzheaven.filesexample;  
-  
+
 import java.io.BufferedReader;  
 import java.io.File;  
 import java.io.FileInputStream;  
@@ -8,6 +7,8 @@ import java.io.FileOutputStream;
 import java.io.IOException;  
 import java.io.InputStreamReader;  
 import java.io.OutputStreamWriter;  
+
+import com.example.externalstorage.R;
   
 import android.os.Bundle;  
 import android.app.Activity;  
@@ -99,7 +100,7 @@ OutputStreamWriter(fOut);
     @Override  
     public boolean onCreateOptionsMenu(Menu menu) {  
         // Inflate the menu; this adds items to the action bar if it is present.  
-        getMenuInflater().inflate(R.menu.activity_main, menu);  
+        getMenuInflater().inflate(R.menu.main, menu);  
         return true;  
     }  
   
